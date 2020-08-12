@@ -13,8 +13,8 @@ Scanner teclado = new Scanner(System.in);
 DecimalFormat formatador = new DecimalFormat("#0.00");
 
 System.out.println("Ponto de Vendas");
-System.out.println("troco = v * d:");
-System.out.println("Digite o valor:");
+
+System.out.println("Digite o valor: ");
 v = teclado.nextDouble();
 System.out.print("Digite o desconto:");
 d = teclado.nextDouble();
