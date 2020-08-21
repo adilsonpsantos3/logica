@@ -18,20 +18,20 @@ public class NumerosAleatórios {
 		
 		//processamento
 		while(tentativas>0 && acertou == false){
-		System.out.println("Qual é o seu chute?");
+		   System.out.println("Qual é o seu chute?");
 		chute = input.nextLong();
 			
 		//saida
 		if(numeroSecreto == chute) {
-		System.out.println("Você acertou!!");
+		   System.out.println("Você acertou!!");
 		acertou = true;
 	        }else if(chute<numeroSecreto) {
 		--tentativas;
-		System.out.println("Numero muito pequeno " + tentativas +" tentativas restantes");
+		   System.out.println("Numero muito pequeno " + tentativas +" tentativas restantes");
 		--tentativas;  
 	        }else {
 		--tentativas; 
-	        System.out.println("Numero muito grande " + tentativas + " tentativas restantes");
+	           System.out.println("Numero muito grande " + tentativas + " tentativas restantes");
 			
 		}
 		}
