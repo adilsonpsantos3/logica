@@ -46,13 +46,13 @@ public class Fundamentos {
 		System.out.println("");
 		System.out.println("Exemplo 2 - Uso do 'if - else'");
 		if (idade <18) {
-			System.out.println("Menor de idade");
+	        System.out.println("Menor de idade");
 		}else {
-			System.out.println("Maior de idade");
+		System.out.println("Maior de idade");
 		}
 		System.out.println("");
 		System.out.println("Exemplo 3 - Uso do 'else - if'");
-				if (idade < 16) {
+		if (idade < 16) {
 	        System.out.println("PRFOIBIDO VOTAR");
 	        } else if (idade >= 18 && idade <= 70) {
 	    	System.out.println("VOTO OBRIGATÓRIO");
