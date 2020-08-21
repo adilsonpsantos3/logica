@@ -59,60 +59,58 @@ public class Fundamentos {
 	    } else if (idade == 16 || idade == 17 || idade > 70) {
 	    	System.out.println("VOTO FACULTATIVO");
 	    	}
-				System.out.println("");
-				System.out.println("Exemplo 3 - Uso do 'Switch case'");
-	            System.out.println("1. Cadastro de clientes");
-	            System.out.println("2. Cadastro de usuários");
-	            System.out.println("3. Relatórios");
-	            int opcao = 1;
-	            switch (opcao) {
-	            case 1:
-	            	System.out.println("CLIENTE");
-	            	break;
-	            case 2:
-	            	System.out.println("USUÁRIOS");
-	            	break;
-	            case 3:
-	            	System.out.println("RELATÓRIOS");
-	            	break;
-	            	default:
-	            	System.out.println("Opção inválida");
-		            break;
-	            } 
-	            System.out.println("__________________________________");
-	    		System.out.println("Estruturas de repetições");
-	    		System.out.println("__________________________________");
-	    		System.out.println("Exemplo 5 - Uso do 'for'");
-	    		for (int j = 10; j > 0; j--) {
-	    			System.out.println("hello");
-	    		}
-	    		System.out.println("__________________________________");
-	    		System.out.println("Exemplo 6 - Tabuada");
-	            for (int tabuada = 0; tabuada <= 10; tabuada ++) {
-	            	System.out.println();
-	            	for (int valor = 0; valor <= 10; valor ++) {
-	            	System.out.println(tabuada + "x" + valor +  " = " + (tabuada * valor));
-	           	}
-	           	System.out.println("");
-		    	System.out.println("Exemplo 7 - Uso da estrutura while");
-		    	int contador = 1;
-		    	while (contador <= 10) {
-		    	System.out.println(contador);	
-		    	contador ++;
-		    	}
-		    	System.out.println("");
-		    	System.out.println("Exemplo 8 - Uso da estrutura do while");
-		    	char novoJogo;
-		    	do {
-		    		System.out.println("Deseja jogar de novamente s/n ?");
-		    		novoJogo = 'n';
-		    	} while (novoJogo == 's');
-		    	System.out.println("GAME OVER");
-		    		
-		    	}
-	            } 
-	
-	}  
+		System.out.println("");
+		System.out.println("Exemplo 3 - Uso do 'Switch case'");
+	    System.out.println("1. Cadastro de clientes");
+	    System.out.println("2. Cadastro de usuários");
+	    System.out.println("3. Relatórios");
+	    int opcao = 1;
+	    switch (opcao) {
+	    case 1:
+	    System.out.println("CLIENTE");
+	    break;
+	    case 2:
+	    System.out.println("USUÁRIOS");
+	    break;
+	    case 3:
+	    System.out.println("RELATÓRIOS");
+	    break;
+	    default:
+	    System.out.println("Opção inválida");
+		break;
+	    }
+	    System.out.println("__________________________________");
+	   	System.out.println("Estruturas de repetições");
+	   	System.out.println("__________________________________");
+	   	System.out.println("Exemplo 5 - Uso do 'for'");
+	   	for (int j = 10; j > 0; j--) {
+	   	System.out.println("hello");
+	   	}
+	   	System.out.println("__________________________________");
+	    System.out.println("Exemplo 6 - Tabuada");
+	    for (int tabuada = 0; tabuada <= 10; tabuada ++) {
+	    System.out.println();
+	    for (int valor = 0; valor <= 10; valor ++) {
+	    System.out.println(tabuada + "x" + valor +  " = " + (tabuada * valor));
+	    }
+	    System.out.println("");
+		System.out.println("Exemplo 7 - Uso da estrutura while");
+		int contador = 1;
+		while (contador <= 10) {
+		System.out.println(contador);	
+		contador ++;
+		}
+		System.out.println("");
+		System.out.println("Exemplo 8 - Uso da estrutura do while");
+		char novoJogo;
+		do {
+		System.out.println("Deseja jogar de novamente s/n ?");
+		novoJogo = 'n';
+		} while (novoJogo == 's');
+		System.out.println("GAME OVER");
+		}
+	    } 
+		}  
 
 
 
