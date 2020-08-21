@@ -3,14 +3,14 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class NumerosAleatórios {
+public class NumerosAleatÃ³rios {
 
 	public static void main(String[] args) {
 		// @Adilson Santos
 		
 		//entrada
 		Scanner input = new Scanner(System.in);
-		//variáveis
+		//variÃ¡veis
 		boolean acertou = false;
 		int tentativas = 10;
 		int numeroSecreto = (int) (Math.random() * 50 + 1);
@@ -18,20 +18,20 @@ public class NumerosAleatórios {
 		
 		//processamento
 		while(tentativas>0 && acertou == false){
-		System.out.println("Qual é o seu chute?");
+		System.out.println("Qual Ã© o seu chute?");
 		chute = input.nextLong();
 			
 		//saida
 		if(numeroSecreto == chute) {
-		System.out.println("Você acertou!!");
+		System.out.println("VocÃª acertou!!");
 		acertou = true;
-	    }else if(chute<numeroSecreto) {
+	        }else if(chute<numeroSecreto) {
 		--tentativas;
 		System.out.println("Numero muito pequeno " + tentativas +" tentativas restantes");
 		--tentativas;  
-	    }else {
+	        }else {
 		--tentativas; 
-	    System.out.println("Numero muito grande " + tentativas + " tentativas restantes");
+	        System.out.println("Numero muito grande " + tentativas + " tentativas restantes");
 			
 		}
 		}
