@@ -43,21 +43,21 @@ public class Fundamentos {
 		System.out.println("__________________________________");
 		System.out.println("Exemplo 1 - Uso do 'if'");
 		if (sexo == 'M') 
-		System.out.println("");
-		System.out.println("Exemplo 2 - Uso do 'if - else'");
+		   System.out.println("");
+		   System.out.println("Exemplo 2 - Uso do 'if - else'");
 		if (idade <18) {
-	        System.out.println("Menor de idade");
-		}else {
-		System.out.println("Maior de idade");
+	           System.out.println("Menor de idade");
+		} else {
+		   System.out.println("Maior de idade");
 		}
-		System.out.println("");
-		System.out.println("Exemplo 3 - Uso do 'else - if'");
+		   System.out.println("");
+		   System.out.println("Exemplo 3 - Uso do 'else - if'");
 		if (idade < 16) {
-	        System.out.println("PRFOIBIDO VOTAR");
+	           System.out.println("PRFOIBIDO VOTAR");
 	        } else if (idade >= 18 && idade <= 70) {
-	    	System.out.println("VOTO OBRIGATÓRIO");
+	    	       System.out.println("VOTO OBRIGATÓRIO");
 	        } else if (idade == 16 || idade == 17 || idade > 70) {
-	    	System.out.println("VOTO FACULTATIVO");
+	    	       System.out.println("VOTO FACULTATIVO");
 	    	}
 		System.out.println("");
 		System.out.println("Exemplo 3 - Uso do 'Switch case'");
@@ -67,17 +67,17 @@ public class Fundamentos {
 	        int opcao = 1;
 	        switch (opcao) {
 	        case 1:
-	        System.out.println("CLIENTE");
-	        break;
+	            System.out.println("CLIENTE");
+	            break;
 	        case 2:
-	        System.out.println("USUÁRIOS");
-	        break;
+	            System.out.println("USUÁRIOS");
+	            break;
 	        case 3:
-	        System.out.println("RELATÓRIOS");
-	        break;
+	            System.out.println("RELATÓRIOS");
+	            break;
 	        default:
-	        System.out.println("Opção inválida");
-		break;
+	            System.out.println("Opção inválida");
+		    break;
 	        }
 	        System.out.println("__________________________________");
 	   	System.out.println("Estruturas de repetições");
