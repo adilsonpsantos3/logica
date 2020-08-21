@@ -10,7 +10,7 @@ public class Fundamentos {
 		double temperatura = 27.4;
 		boolean arCondicionado = false ;		
 		nome = "Adilson" ;
-		System.out.println("Uso de váraiveis na linguagem Java");
+		System.out.println("Uso de vÃ¡raiveis na linguagem Java");
 		System.out.println("Exemplos");
 		System.out.println("Nome:" + nome );
 		System.out.println("Idade:" + idade );
@@ -20,7 +20,7 @@ public class Fundamentos {
 		System.out.println("__________________________________");
 		System.out.println("");
 		double i = 10 ;
-		System.out.println("Operadores Aritiméticos e Atribuições");
+		System.out.println("Operadores AritimÃ©ticos e AtribuiÃ§Ãµes");
 		System.out.println("Exemplos");
 		System.out.println(" i = " + i);
 		System.out.println(" i = " + i + " + 5 | i = " + (i + 5));
@@ -29,14 +29,14 @@ public class Fundamentos {
 		System.out.println(" i = " + i + " / 5 | i = " + (i / 5));
 		System.out.println(" i = " + i + " % 5 | i = " + (i % 5));
 		System.out.println("i + = 5 +      |i = " + (i += 5));
-	    System.out.println("i - = 5 +      |i = " + (i -= 5)); 
-	    System.out.println("i * = 5 +      |i = " + (i *= 5)); 
-	    System.out.println("i / = 5 +      |i = " + (i /= 5)); 
-	    i++ ;
-	    System.out.println("i++            |i = " + i); 
-	    i--;
-	    System.out.println("i--            |i = " + i); 
-	    System.out.println("__________________________________");
+	        System.out.println("i - = 5 +      |i = " + (i -= 5)); 
+	        System.out.println("i * = 5 +      |i = " + (i *= 5)); 
+	        System.out.println("i / = 5 +      |i = " + (i /= 5)); 
+	        i++ ;
+	        System.out.println("i++            |i = " + i); 
+	        i--;
+	        System.out.println("i--            |i = " + i); 
+	        System.out.println("__________________________________");
 		System.out.println("ESTRURAS DE CONTROLE");
 		System.out.println("__________________________________");
 		System.out.println("Estruturas de controle condicional");
@@ -54,46 +54,46 @@ public class Fundamentos {
 		System.out.println("Exemplo 3 - Uso do 'else - if'");
 				if (idade < 16) {
 	        System.out.println("PRFOIBIDO VOTAR");
-	    } else if (idade >= 18 && idade <= 70) {
-	    	System.out.println("VOTO OBRIGATÓRIO");
-	    } else if (idade == 16 || idade == 17 || idade > 70) {
+	        } else if (idade >= 18 && idade <= 70) {
+	    	System.out.println("VOTO OBRIGATÃ“RIO");
+	        } else if (idade == 16 || idade == 17 || idade > 70) {
 	    	System.out.println("VOTO FACULTATIVO");
 	    	}
 		System.out.println("");
 		System.out.println("Exemplo 3 - Uso do 'Switch case'");
-	    System.out.println("1. Cadastro de clientes");
-	    System.out.println("2. Cadastro de usuários");
-	    System.out.println("3. Relatórios");
-	    int opcao = 1;
-	    switch (opcao) {
-	    case 1:
-	    System.out.println("CLIENTE");
-	    break;
-	    case 2:
-	    System.out.println("USUÁRIOS");
-	    break;
-	    case 3:
-	    System.out.println("RELATÓRIOS");
-	    break;
-	    default:
-	    System.out.println("Opção inválida");
+	        System.out.println("1. Cadastro de clientes");
+	        System.out.println("2. Cadastro de usuÃ¡rios");
+	        System.out.println("3. RelatÃ³rios");
+	        int opcao = 1;
+	        switch (opcao) {
+	        case 1:
+	        System.out.println("CLIENTE");
+	        break;
+	        case 2:
+	        System.out.println("USUÃRIOS");
+	        break;
+	        case 3:
+	        System.out.println("RELATÃ“RIOS");
+	        break;
+	        default:
+	        System.out.println("OpÃ§Ã£o invÃ¡lida");
 		break;
-	    }
-	    System.out.println("__________________________________");
-	   	System.out.println("Estruturas de repetições");
+	        }
+	        System.out.println("__________________________________");
+	   	System.out.println("Estruturas de repetiÃ§Ãµes");
 	   	System.out.println("__________________________________");
 	   	System.out.println("Exemplo 5 - Uso do 'for'");
 	   	for (int j = 10; j > 0; j--) {
 	   	System.out.println("hello");
 	   	}
 	   	System.out.println("__________________________________");
-	    System.out.println("Exemplo 6 - Tabuada");
-	    for (int tabuada = 0; tabuada <= 10; tabuada ++) {
-	    System.out.println();
-	    for (int valor = 0; valor <= 10; valor ++) {
-	    System.out.println(tabuada + "x" + valor +  " = " + (tabuada * valor));
-	    }
-	    System.out.println("");
+	        System.out.println("Exemplo 6 - Tabuada");
+	        for (int tabuada = 0; tabuada <= 10; tabuada ++) {
+	        System.out.println();
+	        for (int valor = 0; valor <= 10; valor ++) {
+	        System.out.println(tabuada + "x" + valor +  " = " + (tabuada * valor));
+	        }
+	        System.out.println("");
 		System.out.println("Exemplo 7 - Uso da estrutura while");
 		int contador = 1;
 		while (contador <= 10) {
@@ -109,7 +109,7 @@ public class Fundamentos {
 		} while (novoJogo == 's');
 		System.out.println("GAME OVER");
 		}
-	    } 
+	        } 
 		}  
 
 
