@@ -3,7 +3,7 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class NumerosAleatórios {
+public class NumerosAleatorios {
 
 	public static void main(String[] args) {
 		// @Adilson Santos
